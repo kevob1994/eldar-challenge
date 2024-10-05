@@ -20,7 +20,7 @@ export function Table<T>({
 }: TableProps<T>) {
   return (
     <div className='overflow-x-auto  rounded-t-md'>
-      <table className='min-w-full border-collapse'>
+      <table className='min-w-[600px] border-collapse overflow-auto'>
         <thead className='bg-gray-800 text-white h-16'>
           <tr>
             {columns.map((column, index) => (
